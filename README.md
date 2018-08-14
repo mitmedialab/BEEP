@@ -29,7 +29,7 @@ To run multiple samples at once:
 ```
 python beep.py ./example/template.csv
 ```
-To run single sample:
+To run a single sample:
 ```
 python beep.py folder_with_ab1s control.ab1 sample.ab1 spacer_sequence base_position base_conversion
 ```
@@ -39,7 +39,7 @@ python beep.py example control.ab1 sample.ab1 TCGGCCACCACAGGGAAGCT 6 CT
 ```
 ### Output
 * Efficiences will be outputted to the provided .csv file under "Efficiency" header, or in the terminal for single sample usage. 
-* .png files with edits visualized as chromatograms
+* .png files are created with edits visualized as chromatograms.
 
 ### Author
 
