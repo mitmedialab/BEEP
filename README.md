@@ -41,6 +41,6 @@ python beep.py example control.ab1 sample.ab1 TCGGCCACCACAGGGAAGCT 6 CT
 * Efficiences will be outputted to the provided .csv file under "Efficiency" header, or in the terminal for single sample usage. 
 * .png files with edits visualized as chromatograms
 
-### Authors
+### Author
 
 **Pranam Chatterjee** 
