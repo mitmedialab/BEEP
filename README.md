@@ -1,10 +1,10 @@
 # BEEP
 
-##Base Editing Evaluation Program
+## Base Editing Evaluation Program
 
 Assessing CRISPR-mediated base editing efficiency from Sanger sequencing ab1 files
 
-###Dependencies
+### Dependencies
 
 1. pandas
 ```
@@ -15,7 +15,7 @@ pip install pandas
 pip install Biopython
 ```
 
-###What You Need
+### What You Need
 
 1. beep.py
 2. Negative control of amplified region: control.ab1 file 
@@ -23,7 +23,7 @@ pip install Biopython
 4. .csv file containing ab1 file names, spacer sequences, base position in spacer, and desired base conversion (template provided)
 
 
-###Running BEEP
+### Running BEEP
 
 To run multiple samples at once:
 ```
@@ -37,9 +37,9 @@ Example:
 ```
 python beep.py be3samples control.ab1 sample.ab1 GTGTCTGTGTGGGTGAGTGA 5 CT
 ```
-###Output
+### Output
 Efficiences will be outputted to the provided .csv file under "Efficiency" header, or in the terminal for single sample usage. 
 
-###Authors
+### Authors
 
 **Pranam Chatterjee** 
