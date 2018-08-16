@@ -138,11 +138,11 @@ def main():
 			directory = row['Directory']
 			control_file = row['Control']
 			sample_file = row['Sample']
-			spacer = row['Spacer']
+			target = row['Target Sequence']
 			be_position = row['Base Position in Spacer']
 			base_change = row['Conversion']
 			#Efficiency for each sample
-			efficiencies.append(get_efficiency(directory, control_file, sample_file, spacer, be_position, base_change, multiple))
+			efficiencies.append(get_efficiency(directory, control_file, sample_file, target, be_position, base_change, multiple))
 		#Create new column of efficiencies
 		df['Efficiency'] = efficiencies
 
