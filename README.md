@@ -20,7 +20,7 @@ pip install Biopython
 1. beep.py
 2. Negative control of amplified region: control.ab1 file 
 3. Sample ab1 files
-4. .csv file containing ab1 file names, spacer sequences, base position in spacer, and desired base conversion (template provided)
+4. .csv file containing ab1 file names, target sequences, base position in target, and desired base conversion (template provided)
 
 
 ### Running BEEP
@@ -31,7 +31,7 @@ python beep.py ./example/template.csv
 ```
 To run a single sample:
 ```
-python beep.py folder_with_ab1s control.ab1 sample.ab1 spacer_sequence base_position base_conversion
+python beep.py folder_with_ab1s control.ab1 sample.ab1 target_sequence base_position base_conversion
 ```
 Example:
 ```
