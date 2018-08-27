@@ -22,6 +22,10 @@ pip install Biopython
 3. Sample ab1 files
 4. .csv file containing ab1 file names, target sequences, base position in target, and desired base conversion (template provided)
 
+### Installation
+```
+git clone https://github.com/mitmedialab/BEEP
+```
 
 ### Running BEEP
 
